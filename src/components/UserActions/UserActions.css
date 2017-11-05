@@ -1,0 +1,24 @@
+.UserActions-actions {
+  display: flex;
+  justify-content: space-between; }
+
+.UserActions-Modalbutton {
+  flex-basis: 48%; }
+
+.UserActions-wrapper {
+  display: flex;
+  justify-content: flex-start; }
+  @media (min-width: 900px) {
+    .UserActions-wrapper {
+      justify-content: space-between; } }
+
+.UserActions-button {
+  flex: 0 0 calc(50% - 4px); }
+  .UserActions-button:first-of-type {
+    margin-right: 8px; }
+  @media (min-width: 400px) {
+    .UserActions-button {
+      flex: 0 0 100px; } }
+  @media (min-width: 900px) {
+    .UserActions-button {
+      flex: 0 0 calc(50% - 4px); } }

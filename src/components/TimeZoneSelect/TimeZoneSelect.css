@@ -1,0 +1,9 @@
+.TimeZoneSelect {
+  border: 1px solid #dcddde;
+  font-size: 14px;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 8px; }
+  .TimeZoneSelect:focus {
+    border-color: currentColor;
+    outline: 0; }

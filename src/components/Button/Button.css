@@ -1,0 +1,23 @@
+.Button {
+  background-color: #3068ff;
+  border: 0;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 8px 16px; }
+  @media (min-width: 900px) {
+    .Button {
+      font-size: 14px;
+      padding: 10px 20px; } }
+  .Button:hover, .Button:focus {
+    background-color: #0044fc;
+    outline: 0; }
+
+.Button--outline {
+  color: #3068ff;
+  border: 1px solid currentColor;
+  background-color: transparent; }
+  .Button--outline:hover, .Button--outline:focus {
+    background-color: #0044fc;
+    color: #fff; }

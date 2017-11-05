@@ -1,0 +1,30 @@
+@import 'node_modules/reset-css/_reset.scss';
+@import './vars.scss';
+@import './breakpoints.scss';
+
+html {
+  font-size: 16px;
+  line-height: 120%;
+}
+
+body {
+  box-sizing: border-box;
+  color: $black;
+  font-family: sans-serif, arial;
+  min-width: $min-site-width;
+  margin: 0;
+  padding: 0;
+
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-size: 21px;
+  margin: 0;
+  @include breakpoint(small) {
+    font-size: 32px;
+  }
+}

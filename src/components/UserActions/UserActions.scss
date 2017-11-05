@@ -1,0 +1,32 @@
+@import '../../scss/breakpoints.scss';
+
+.UserActions-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.UserActions-Modalbutton {
+  flex-basis: 48%;
+}
+
+.UserActions-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  @include breakpoint(small) {
+    justify-content: space-between;
+  }
+}
+
+.UserActions-button {
+  flex: 0 0 calc(50% - 4px);
+
+  &:first-of-type {
+    margin-right: 8px;
+  }
+  @include breakpoint(xsmall) {
+    flex: 0 0 100px;
+  }
+  @include breakpoint(small) {
+    flex: 0 0 calc(50% - 4px);
+  }
+}

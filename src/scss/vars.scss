@@ -1,0 +1,25 @@
+// Colors
+$white: #fff;
+$black: #000;
+$black: #171b1f;
+$grey: #dcddde;
+$grey-dark: darken(grey, 10%);
+$grey-light: #f9f9f9;
+$blue: #3068ff;
+$blue-dark: darken($blue, 10%);
+$yellow: #F4C243;
+
+$primary: $yellow;
+$seconday: $blue;
+$seconday-dark: $blue-dark;
+
+// Z-index
+$z-index: (
+  Loader: 1,
+  Modal: 2,
+  Modal-content: 3
+);
+
+// Site width
+$min-site-width: 320px;
+$max-site-width: 1200px;

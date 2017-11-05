@@ -1,0 +1,19 @@
+.AddUser {
+  background-color: #fff;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px; }
+
+.AddUser-title {
+  margin-right: auto;
+  font-weight: bold; }
+
+.AddUser-actions {
+  display: flex;
+  justify-content: space-between; }
+
+.AddUser-button {
+  flex-basis: 48%; }

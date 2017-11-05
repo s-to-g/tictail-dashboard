@@ -1,0 +1,25 @@
+@import '../../scss/vars.scss';
+
+.AddUser {
+  background-color: $white;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  max-width: $max-site-width;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.AddUser-title {
+  margin-right: auto;
+  font-weight: bold;
+}
+
+.AddUser-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.AddUser-button {
+  flex-basis: 48%;
+}

@@ -1,0 +1,16 @@
+@import '../../scss/base.scss';
+@import '../../scss/vars.scss';
+
+.Dashboard {
+  background-color: $white;
+}
+
+.Dashboard-header {
+  background-color: $primary;
+}
+
+.Dashboard-title {
+  padding: 40px 20px;
+  max-width: $max-site-width;
+  margin: 0 auto;
+}

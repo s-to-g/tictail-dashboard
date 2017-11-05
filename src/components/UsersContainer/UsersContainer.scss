@@ -1,0 +1,9 @@
+@import '../../scss/vars.scss';
+
+.UsersContainer {
+  background-color: $white;
+  max-width: $max-site-width;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 0 20px 20px;
+}

@@ -1,0 +1,33 @@
+@import '../../scss/vars.scss';
+@import '../../scss/breakpoints.scss';
+
+.Button {
+  background-color: $seconday;
+  border: 0;
+  border-radius: 3px;
+  color: $white;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 8px 16px;
+  @include breakpoint(small) {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $seconday-dark;
+    outline: 0;
+  }
+}
+
+.Button--outline {
+  color: $seconday;
+  border: 1px solid currentColor;
+  background-color: transparent;
+  &:hover,
+  &:focus {
+    background-color: $seconday-dark;
+    color: $white;
+  }
+}

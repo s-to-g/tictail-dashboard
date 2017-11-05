@@ -1,0 +1,31 @@
+.Modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%; }
+  .Modal:after {
+    content: "";
+    background-color: #171b1f;
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 2; }
+
+.Modal-box {
+  background-color: #fff;
+  padding: 40px 20px;
+  position: relative;
+  width: 300px;
+  z-index: 3; }
+  @media (min-width: 900px) {
+    .Modal-box {
+      padding: 40px;
+      width: 400px; } }

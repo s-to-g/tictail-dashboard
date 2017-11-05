@@ -1,0 +1,15 @@
+.Input {
+  border: 1px solid #dcddde;
+  color: #676767;
+  font-size: 14px;
+  margin-bottom: 8px;
+  padding: 10px 8px;
+  width: 100%; }
+  .Input:focus {
+    border-color: currentColor;
+    outline: 0; }
+  @media (min-width: 400px) {
+    .Input {
+      padding: 16px 8px; } }
+  .Input::placeholder {
+    color: #676767; }

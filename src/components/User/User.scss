@@ -1,0 +1,80 @@
+@import '../../scss/vars.scss';
+@import '../../scss/breakpoints.scss';
+
+.User {
+  background-color: $grey-light;
+  display: flex;
+  padding: 20px 20px;
+  &:not(:last-of-type) {
+    border-bottom: 1px solid $grey;
+  }
+}
+
+.User-avatar {
+  background: no-repeat center center;
+  background-color: $primary;
+  background-size: cover;
+  border-radius: 50%;
+  height: 70px;
+  flex: 0 0 70px;
+  width: 70px;
+  margin-bottom: 8px;
+  left: 0;
+  @include breakpoint(small) {
+    margin: 0;
+  }
+}
+
+.User-text {
+  flex-basis: calc(100% - 70px);
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  line-height: 125%;
+  padding-left: 16px;
+  @include breakpoint(small) {
+    align-items: center;
+    flex-direction: row;
+  }
+}
+
+.User-location {
+  display: block;
+  font-size: 12px;
+  @include breakpoint(xsmall) {
+    font-size: initial;
+  }
+}
+
+.User-title {
+  display: block;
+}
+
+.User-name {
+  margin-bottom: 8px;
+  @include breakpoint(small) {
+    margin: 0;
+    flex: 0 0 33%;
+  }
+}
+
+.User-buttons {
+  flex-basis: 100%;
+  @include breakpoint(small) {
+    flex: 0 0 244px;
+    padding-left: 16px;
+  }
+}
+
+.User-info {
+  flex: 0 1 100%;
+  margin-bottom: 8px;
+  @include breakpoint(small) {
+    flex: 0 0 calc(66% - 244px);
+    margin: 0;
+  }
+}
+
+.User-info--bold {
+  font-weight: bold;
+}
