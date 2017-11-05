@@ -11,4 +11,4 @@ Run the app
 yarn start
 ```
 
-To allow cross-domain requests from the app to the REST API server, use the chrome plugin [Allow-Control-Allow-Origin](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi/reviews?hl=en) https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi/reviews?hl=en or a similar service.
+To allow cross-domain requests from the app to the REST API server, use the chrome plugin [Allow-Control-Allow-Origin](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi/reviews?hl=en) or a similar service.
