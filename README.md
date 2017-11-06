@@ -1,7 +1,7 @@
 # Tictail Recruiting Assignment
 
 ## Get started
-Load all the dependencies
+### Load all the dependencies
 ```console
 yarn
 ```
@@ -10,7 +10,7 @@ or
 npm i
 ```
 
-Run the app
+### Run the app
 ```console
 yarn start
 ```
